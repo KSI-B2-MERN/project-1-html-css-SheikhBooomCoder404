@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightslategrey;
+    margin: 0;
+  }
+  
+  .navbar {
+    display:flex;
+    background-color:  brown;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+  }
+  .NavbarContent ul {
+    list-style:none;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+  }
+  .NavbarContent {
+    display:flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    background-color: transparent; /* This is incorrect, transparent and white are not valid values together. Choose one of them. */
+  }
+  .NavbarContent li{
+    margin-right:20px;
+    color:white;
+    justify-content: flex-end;
+  }
+  .NavbarContent li:hover{
+    color: yellow;
+  }
+  
+  .contentbody {
+    /* Add styles for the body section here if needed */
+  }
+  
+  .images {
+    /* Add styles for the images section here if needed */
+  }
+  
+  .footor {
+    /* Add styles for the footer section here if needed */
+  }
