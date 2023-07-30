@@ -9,39 +9,66 @@ body {
     background-color:  brown;
     justify-content: flex-end;
     align-items: center;
-    height: 100px;
+    
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   .NavbarContent ul {
     list-style:none;
     display: flex;
-    justify-content:flex-end;
-    align-items: center;
-  }
-  .NavbarContent {
-    display:flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
-    background-color: transparent; /* This is incorrect, transparent and white are not valid values together. Choose one of them. */
+    margin-right: 20px;
   }
   .NavbarContent li{
     margin-right:20px;
     color:white;
-    justify-content: flex-end;
   }
   .NavbarContent li:hover{
     color: yellow;
   }
   
   .contentbody {
-    /* Add styles for the body section here if needed */
+    display: flex;
+    justify-content: center;
+  }
+  .name-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px;
+    background-color:rgba(34, 88, 40, 0.807);
+  }
+  .name-section h1{
+    font-size:50px;
+    font-weight: 800;
+    margin-bottom: 2px;
+  }
+  .name-section h3{
+    font-size: 30px;
+    color: darkrgey;
+    font-weight: 5;
   }
   
-  .images {
+  .gallery {
     /* Add styles for the images section here if needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: antiquewhite;
   }
-  
+  .image{
+    text-align: center;
+    margin:10px;
+  }
+  .image img{
+    width: 100%;
+    max-height: 300px;
+  }
   .footor {
     /* Add styles for the footer section here if needed */
   }
